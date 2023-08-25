@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-lightgrayishblue">
+    <main class="items-center flex justify-center h-screen">
+      <!-- card -->
+      <div class="w-full max-w-md lg:max-w-5xl mx-auto px-6 py-8 md:lg:flex">
+        <!-- image -->
+        <div class="lg:w-1/3">
+          <img
+            src="/images/drawers.jpg"
+            alt=""
+            class="rounded-t-[15px] object-cover md:lg:rounded-l-[15px] md:lg:rounded-t-none"
+          />
+        </div>
+        <!-- content -->
+
+        <div
+          class="rounded-b-[15px] lg:w-2/3 flex flex-col space-y-3 pt-10 bg-white px-8 md:lg:rounded-l-none md:lg:rounded-r-[15px]"
+        >
+          <div class="font-bold text-xl text-verydarkgray md:lg:mx-4">
+            <h1 class="lg:text-3xl">
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </h1>
+          </div>
+          <!-- description -->
+          <div class="text-base text-desaturatedblue pt-2">
+            <p class="lg:mx-4 text-xl">
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I’ve got some simple tips to
+              help you make any room feel complete.
+            </p>
+          </div>
+          <!-- profile section -->
+          <div class="flex flex-row py-8 justify-between">
+            <div class="flex flex-row gap-3">
+              <!-- profile picture -->
+              <div class="">
+                <img
+                  src="/images/avatar-michelle.jpg"
+                  alt=""
+                  class="rounded-full w-11 h-auto"
+                />
+              </div>
+              <!-- name -->
+              <div class="">
+                <p class="font-bold text-lg text-verydarkgray">
+                  Michelle Appleton
+                </p>
+                <!-- date -->
+                <p class="text-desaturatedblue">28 Jun 2020</p>
+              </div>
+            </div>
+            <!-- share button -->
+            <div class="max-w-full tooltip">
+              <img
+                src="/images/icon-share.svg"
+                alt=""
+                class="rounded-full w-11 h-auto p-3 border-none bg-lightgrayishblue"
+              />
+              <div class="tooltiptext flex flex-row h-auto space-x-5">
+                <div><p class="text-2xl">SHARE</p></div>
+                <div class="flex h-auto max-w-md space-x-4">
+                  <img src="/images/icon-facebook.svg" alt="" />
+                  <img src="/images/icon-twitter.svg" alt="" />
+                  <img src="/images/icon-pinterest.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
